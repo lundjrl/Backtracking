@@ -1,6 +1,7 @@
 #include "Backtrack.h"
 #include <iostream>
 
+//Main function to execute solving a given Sudoku board
 int main(int argc, char** argv){
 
 	int board[9][9] = {{ 0, 3, 0, 0, 0, 0, 0, 2, 0 },
